@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<title>Does It Pass the Bechdel Test?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper1">
+  <div class= header><h1>Does It Pass the Bechdel Test?</h1></div>
+  <div><p>a paragraph explaining what is the Bechdel test, who is Alison Bechdel and 
+    why you should obssess over her as well.</p></div>
+</div>
+<div id="wrapper2">
+  <button type="button" class="button">what should I watch?</button><label for="filmcategory"></label>
+  <select name="categories" id="categories">
+    <option value="All">All</option>
+    <option value="Random">Random</option>
+    <option value="BFF">BFF</option>
+    <option value="LGBTQ">LGBTQ</option>
+    <option value="GirlPower">Girl Power</option>
+    <option value="Animation">Animation</option>
+    <option value="Truth">Truth</option>
+    <option value="Violence">Violence</option>
+    <option value="Comedy">Comedy</option>
+    <option value="Drama">Drama</option>
+    <option value="AllTimeClassics">All Time Classics</option>
+  </select>
+    <div class=“check-container”><input type="checkbox" class="checkbox-input" id="customCheck">
+    <label class=“custom-control-label” for="customCheck">movies</label><input checked="checked" type="checkbox" class="checkbox-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">tv shows</label>
+
+<!--    <div class="view-radio"><span>show results in:</span>
+      <input type="radio" id="results-view" name="view-option" value="poster-view">
+      <label for="poster-view">Poster View</label>
+      <input type="radio" id="results-view" name="view-option" value="list-view">
+      <label for="list-view">List View</label></div>-->
+  
+    </div>
+</div>
+    <script src="d3.min.js"></script>
+    <script src="fetch.js"></script>
+</body>
+</html>
