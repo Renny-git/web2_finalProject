@@ -1,3 +1,7 @@
+//https://isotope.metafizzy.co/
+
+let type = 'All',
+content = '';
 
 $(document).ready(function() {  
     $(".checkbox-input").change(function () {
@@ -14,28 +18,40 @@ $(document).ready(function() {
 
 document.querySelector('#categories').addEventListener('change', function(){
     let cityValue = document.querySelector('#categories').value;
-    if(cityValue == 'NYC') {
-        lat = '40.714272';
-        long = '-74.005966';
-        url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly,minutely,alerts&appid=${api}&units=${unit}`;
-        createFetch(url)
-    } if(cityValue == 'Beijing') {
-        lat = '39.907501';
-        long = '116.397232';
-        url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly,minutely,alerts&appid=${api}&units=${unit}`;
-        createFetch(url)
-    } if(cityValue == 'Taipei') {
-        lat = '24.94702';
-        long = '121.581749';
-        url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly,minutely,alerts&appid=${api}&units=${unit}`;
-        createFetch(url)
-    }  else {
-        lat = '-22.9028';
-        long = '-43.2075';
-        url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly,minutely,alerts&appid=${api}&units=${unit}`;
-        createFetch(url)
-    }
+    if(cityValue == 'All') {
+        // filter = [];
+        updateUI();
+    } if(cityValue == 'Random') {
+        // filter = [];
+        type = 'Random';
+        updateUI();
+    } 
 });
+
+function updateUI(data, type) {
+    console.log(data);
+    for(let i = 0; i < data.length; i++) {
+        // console.log(data.img);
+        content += `<div class="poster" data-filter="${data[i].type}" data-plot="${data[i].plot}"><img src="${data[i].img}" /></div>`;
+    }
+    document.getElementById('movies').innerHTML = content;
+    onPosterClick();
+}
+
+function onPosterClick() {
+    // console.log('test');
+    // console.log(poster.length);
+    $('.poster').on('click', function(){
+        console.log('click');
+        let plot = $(this).data('plot');
+        console.log(plot);
+        $(this).append(`<div class="caption">${plot}</div>`);
+    });
+}
+
+function updateFail() {
+    console.log(error);
+}
 
 function createFetch(url) {
     fetch(url)
@@ -46,7 +62,7 @@ function createFetch(url) {
     })
     .then(function(data) {
     
-        return updateUI(data);
+        return updateUI(data, 'all');
     
     })
     
@@ -58,5 +74,5 @@ function createFetch(url) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    createRequest(url, updateUI, updateFail);
+    createFetch('data.json', updateUI, updateFail);
 });

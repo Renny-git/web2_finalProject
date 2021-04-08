@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Movie Name",
+        "img": "img/theQueensGambit_poster.png",
+        "plot": "THIS IS THE PLOT I FOUND",
+        "genre": "Test",
+        "type": ["BFF", "LGBTQ", "Girl Power"]
+    },
+    {
+        "name": "It Takes Two",
+        "img": "img/theQueensGambit_poster.png",
+        "type": ["BFF", "LGBTQ", "Girl Power"]
+    },
+    {
+        "name": "It Takes Two",
+        "img": "img/theQueensGambit_poster.png",
+        "type": ["BFF", "LGBTQ", "Girl Power"]
+    },
+    {
+        "name": "It Takes Two",
+        "img": "img/theQueensGambit_poster.png",
+        "type": ["BFF", "LGBTQ", "Girl Power"]
+    }     
+]

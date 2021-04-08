@@ -17,7 +17,10 @@ p{
 }
 #wrapper2{
     text-align: left;
-    margin-left: 25%;
+    width: 30%;
+    margin: 0 auto 3%;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 .button{
     background-color: #2979a7;
@@ -58,4 +61,35 @@ select {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     color: #18587d;
+}
+
+#movies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.poster {
+    width: 24%;
+}
+
+.poster img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .poster {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .poster {
+        width: 100%;
+    }
+
+    .poster img {
+        width: 100%;
+    }
 }
