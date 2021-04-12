@@ -3,24 +3,28 @@ body{
     color: #fefbe8;
     font-family: 'Quicksand', sans-serif;
 }
+#wrapper1{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
 h1{
     text-align: center;
-    margin-left: 25%;
-    margin-top: 60px;
-    width: 500px;
+    width: 100%;
 }
+
 p{
     text-align: center;
-    margin-left: 25%;
-    font-size: 20px;
-    width: 500px;
+    font-size: 15px;
+    width: 80%;
+    padding: 12px 10px;
 }
 #wrapper2{
-    text-align: left;
-    width: 30%;
-    margin: 0 auto 3%;
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
 }
 .button{
     background-color: #2979a7;
@@ -54,13 +58,19 @@ select {
     width: 20%;
     display: inline-block;
     margin: 10px;
-    padding: 12px 10px;
+    padding: 12px 1px;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: medium;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     color: #18587d;
+}
+.grid-item { 
+    width: 25%; 
+}
+.grid-item--width2 { 
+    width: 50%; 
 }
 
 #movies {
