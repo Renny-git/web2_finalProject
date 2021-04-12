@@ -7,28 +7,43 @@
 </head>
 <body>
 <div id="wrapper1">
-  <div class= header><h1>Does It Pass the Bechdel Test?</h1></div>
-  <div><p>a paragraph explaining what is the Bechdel test, who is Alison Bechdel and 
-    why you should obssess over her as well.</p></div>
+  <h1>Movies and series that </br> pass the Bechdel Test</h1>
+  <div id= main-paragraph><p>Alison Bechdel, an American cartoonist, came up with this 
+    genius way of filtering movies to watch based on 3 simple rules:</br>
+    1. The movie should have at least two female characters who</br>
+    2. speak to each other about</br>
+    3. anything other than  a man.  </br>
+
+Below is a compilation of films and tv series that pass the “test”, enjoy!
+  </p></div>
 </div>
 <div id="wrapper2">
-  <button type="button" class="button">what should I watch?</button><label for="filmcategory"></label>
+  <label for="filmcategory"></label>
   <select name="categories" id="categories">
     <option value="All">All</option>
-    <option value="Random">Random</option>
-    <option value="BFF">BFF</option>
-    <option value="LGBTQ">LGBTQ</option>
-    <option value="GirlPower">Girl Power</option>
+    <option value="AllTimeClassics">All Time Classics</option>
     <option value="Animation">Animation</option>
-    <option value="Truth">Truth</option>
-    <option value="Violence">Violence</option>
+    <option value="Action">Action</option>
+    <option value="Adventure">Adventure</option>
+    <option value="BFF">BFF</option>
     <option value="Comedy">Comedy</option>
     <option value="Drama">Drama</option>
-    <option value="AllTimeClassics">All Time Classics</option>
+    <option value="GirlPower">Girl Power</option>
+    <option value="LGBTQ">LGBTQ</option>
+    <option value="Random">Random</option>
+    <option value="RomCom">RomCom</option>
+    <option value="Truth">Truth</option>
+    <option value="Violence">Violence</option>
   </select>
     <div class=“check-container”><input type="checkbox" class="checkbox-input" id="customCheck">
     <label class=“custom-control-label” for="customCheck">movies</label><input checked="checked" type="checkbox" class="checkbox-input" id="customCheck1">
     <label class="custom-control-label" for="customCheck1">tv shows</label>
+  <button type="button" class="button">what should I watch?</button>
+  <div class="grid">
+    <div class="grid-item">...</div>
+    <div class="grid-item grid-item--width2">...</div>
+    <div class="grid-item">...</div>
+  </div>
 
 <!--    <div class="view-radio"><span>show results in:</span>
       <input type="radio" id="results-view" name="view-option" value="poster-view">
@@ -42,6 +57,7 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+  <script src="/path/to/isotope.pkgd.min.js"></script>
     <script src="d3.min.js"></script>
     <script src="fetch.js"></script>
 </body>
