@@ -1,24 +1,62 @@
 [
     {
-        "name": "Movie Name",
-        "img": "img/theQueensGambit_poster.png",
-        "plot": "THIS IS THE PLOT I FOUND",
-        "genre": "Test",
-        "type": ["BFF", "LGBTQ", "Girl Power"]
+        "name": "Becoming",
+        "img": "img/becoming_poster.png",
+        "type": ["Truth","Girl Power"]
     },
     {
-        "name": "It Takes Two",
-        "img": "img/theQueensGambit_poster.png",
-        "type": ["BFF", "LGBTQ", "Girl Power"]
+        "name": "Big Little Lies",
+        "img": "img/big-little-lies_poster.png",
+        "type": ["Drama"]
     },
     {
-        "name": "It Takes Two",
-        "img": "img/theQueensGambit_poster.png",
-        "type": ["BFF", "LGBTQ", "Girl Power"]
+        "name": "Blue is the Warmest Color",
+        "img": "img/blueIstheWarmestColor_poster.png",
+        "type": ["LGBTQ"]
     },
     {
-        "name": "It Takes Two",
-        "img": "img/theQueensGambit_poster.png",
-        "type": ["BFF", "LGBTQ", "Girl Power"]
-    }     
+        "name": "Booksmart",
+        "img": "img/booksmart_poster.png",
+        "type": ["BFF", "Comedy" , "Girl Power", "LGBTQ"]
+    },
+    {
+        "name": "Cable Girls",
+        "img": "img/cableGirls_poster.png",
+        "type": ["Drama" , "Girl Power"]
+    },
+    {
+        "name": "Carol",
+        "img": "img/carol_poster.png",
+        "type": ["Drama" , "LGBTQ"]
+    },   
+    {
+        "name": "Charlies Angels",
+        "img": "img/charliesAngels_poster.png",
+        "type": ["Comedy" , "Girl Power"]
+    },
+    {
+        "name": "Chilling Adventures of Sabrina",
+        "img": "img/chillingADventuresOfSabrina_poster.png",
+        "type": ["Comedy" , "Girl Power"]
+    },
+    {
+        "name": "Coyote Ugly",
+        "img": "img/coyoteUgly_poster.png",
+        "type": ["Comedy" , "Girl Power"]
+    },
+    {
+        "name": "Crazy Ex Girlfriend",
+        "img": "img/crazyExGirlfriend_poster.png",
+        "type": ["Comedy" , "Girl Power"]
+    },
+    {
+        "name": "Dead To me",
+        "img": "img/deadToMe_poster.png",
+        "type": ["Comedy" , "Girl Power"]
+    },
+    {
+        "name": "The Devil Wears Prada",
+        "img": "img/devilWearsPrada_poster.png",
+        "type": ["Comedy" , "Girl Power"]
+    }
 ]
