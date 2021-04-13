@@ -4,74 +4,122 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 #wrapper1{
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
 }
 h1{
     text-align: center;
     width: 100%;
+    font-size: 40px;
 }
 
-p{
+#main-p{
     text-align: center;
     font-size: 15px;
-    width: 80%;
+    width: 100%;
     padding: 12px 10px;
+}
+ol{
+    text-align: justify;
+    margin: 0 auto;
+    width: 35em;
+    font-size: 18px;
 }
 #wrapper2{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 70%;
+    justify-content: space-evenly;
+    width: 90%;
 }
-.button{
+ /* ---- button-group from isotope codepen---- */
+
+ .button-group {
+    margin-bottom: 20px;
+  }
+  
+  .button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+  }
+  
+  .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+  .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+  /* ---- button from isotope codepen ---- */
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #EEE;
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: rgb(75, 154, 214);
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    color: #222;
+  }
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+.button:active {
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+  }
+
+  /* ---- my button ---- */
+.button2{
+    align-items: center;
     background-color: #2979a7;
     color: #fefbe8;
     border: none;
-    border-radius: 4px;
-    padding: 14px 32px;
+    border-radius: 2px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    width: 25%;
+    padding: 12px 1px;
+    margin-bottom: 50px;
 }
-/*.view-radio{
-    background-color: #2979a7;
-    color: #fefbe8;
-    padding: 10px 20px;
-    margin: 40px;
-    border-radius: 4px;
-    display: inline-block;
-    font-size: 12px;
-}
-/*.check-container{
-    width: 20%;
-    display: inline-block;
-    text-align: left;
+/* ---- check-box parameters not working ---- */
+/*#checkmain{
+    width: 25%;
     padding: 14px 32px;
     color: #fefbe8;
-    font-size: 16px;
+    font-size: 50px;
 }*/
 select {
-    width: 20%;
-    display: inline-block;
-    margin: 10px;
-    padding: 12px 1px;
+    width: 25%;
+    margin: 0 0 50px 10px;
+    padding: 10px 2px 2px 10px;
     border-radius: 4px;
-    box-sizing: border-box;
+    align-items: center;
     font-size: medium;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     color: #18587d;
 }
-.grid-item { 
+/*.grid-item { 
     width: 25%; 
-}
-.grid-item--width2 { 
-    width: 50%; 
-}
+}*/
 
 #movies {
     display: flex;
@@ -82,6 +130,7 @@ select {
 
 .poster {
     width: 24%;
+    margin-bottom: 2%;
 }
 
 .poster img {
