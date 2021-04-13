@@ -8,51 +8,51 @@
 <body>
 <div id="wrapper1">
   <h1>Movies and series that </br> pass the Bechdel Test</h1>
-  <div id= main-paragraph><p>Alison Bechdel, an American cartoonist, came up with this 
-    genius way of filtering movies to watch based on 3 simple rules:</br>
-    1. The movie should have at least two female characters who</br>
+<div id= main-p><p>Alison Bechde is an American cartoonist who, amongst other great things,</br>
+came up with this genius way of filtering movies to watch based on 3 simple rules:</br></br>
+    <strong><ol>1. The movie should have at least two female characters who</br>
     2. speak to each other about</br>
-    3. anything other than  a man.  </br>
-
-Below is a compilation of films and tv series that pass the “test”, enjoy!
-  </p></div>
+    3. anything other than  a man.  </br></strong></ol></br>
+    Below is a compilation of films and tv series that pass the “test”, enjoy!
+    </p>
+  </div>
 </div>
-<div id="wrapper2">
-  <label for="filmcategory"></label>
-  <select name="categories" id="categories">
-    <option value="All">All</option>
-    <option value="AllTimeClassics">All Time Classics</option>
-    <option value="Animation">Animation</option>
-    <option value="Action">Action</option>
-    <option value="Adventure">Adventure</option>
-    <option value="BFF">BFF</option>
-    <option value="Comedy">Comedy</option>
-    <option value="Drama">Drama</option>
-    <option value="GirlPower">Girl Power</option>
-    <option value="LGBTQ">LGBTQ</option>
-    <option value="Random">Random</option>
-    <option value="RomCom">RomCom</option>
-    <option value="Truth">Truth</option>
-    <option value="Violence">Violence</option>
-  </select>
-    <div class=“check-container”><input type="checkbox" class="checkbox-input" id="customCheck">
+<!-- <div id=“checkmain”><input type="checkbox" class="checkbox-input" id="customCheck">
     <label class=“custom-control-label” for="customCheck">movies</label><input checked="checked" type="checkbox" class="checkbox-input" id="customCheck1">
-    <label class="custom-control-label" for="customCheck1">tv shows</label>
-  <button type="button" class="button">what should I watch?</button>
-  <div class="grid">
-    <div class="grid-item">...</div>
-    <div class="grid-item grid-item--width2">...</div>
-    <div class="grid-item">...</div>
-  </div>
-
-<!--    <div class="view-radio"><span>show results in:</span>
-      <input type="radio" id="results-view" name="view-option" value="poster-view">
-      <label for="poster-view">Poster View</label>
-      <input type="radio" id="results-view" name="view-option" value="list-view">
-      <label for="list-view">List View</label></div>-->
+    <label class="custom-control-label" for="customCheck1">tv shows</label></div>-->
+    <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button>
+      <button class="button" data-filter=".transition">animation</button>
+      <button class="button" data-filter=".alkali, .alkaline-earth">action</button>
+      <button class="button" data-filter=":not(.transition)">adventure</button>
+      <button class="button" data-filter=".metal:not(.transition)">BFF</button>
+      <button class="button" data-filter="numberGreaterThan50">Comedy</button>
+      <button class="button" data-filter="ium">Drama</button>
+      <button class="button" data-filter="ium">Girl Power</button>
+      <button class="button" data-filter="ium">LGBTQ</button>
+      <button class="button" data-filter="ium">Romcom</button>
+      <button class="button" data-filter="ium">Truth</button>
     </div>
+<div id="wrapper2">
+    <label for="filmcategory"></label>
+    <select name="categories" id="categories">
+      <option value="All">All</option>
+      <option value="Animation">Animation</option>
+      <option value="Action">Action</option>
+      <option value="Adventure">Adventure</option>
+      <option value="BFF">BFF</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Drama">Drama</option>
+      <option value="GirlPower">Girl Power</option>
+      <option value="LGBTQ">LGBTQ</option>
+      <option value="RomCom">RomCom</option>
+      <option value="Truth">Truth</option>
+    </select>
+    <button type="button" class="button2">what should I watch?</button>
   </div>
-    <div id="movies"></div>
+  <div class="grid">
+  <div id="movies"></div>
+  </div>
+  
   <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
