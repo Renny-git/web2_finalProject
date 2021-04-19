@@ -125,12 +125,13 @@ select {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    opacity: 0;
     width: 100%;
 }
 
 .poster {
-    width: 24%;
-    margin-bottom: 2%;
+    margin: 0 1% 2%;
+    width: 23%;
 }
 
 .poster img {

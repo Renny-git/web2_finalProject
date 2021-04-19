@@ -1,41 +1,74 @@
 //https://isotope.metafizzy.co/
 
 let type = 'All',
-content = '';
+    content = '',
+    typeClass = '',
+    checkValue = '';
 
-$(document).ready(function() {  
-    $(".checkbox-input").change(function () {
-      selectedinputs();
+const $grid = $('.grid'),
+    checkboxes = $('.checkbox-input');
+
+// (function () {
+//     $grid.isotope({
+//         itemSelector: '.grid-item'
+//     });
+// }());
+
+function initIso() {
+    $grid.isotope({
+        itemSelector: '.grid-item'
     });
-  
-    function selectedinputs(){
-      var checkboxes = $('input:checkbox:checked').length;
-      $("p>span").text(checkboxes);
-    }
-    selectedinputs();
-});
+}
 
-
+//Categories dropdown filter
 document.querySelector('#categories').addEventListener('change', function(){
-    let cityValue = document.querySelector('#categories').value;
-    if(cityValue == 'All') {
-        // filter = [];
-        updateUI();
-    } if(cityValue == 'Random') {
-        // filter = [];
-        type = 'Random';
-        updateUI();
-    } 
+    let typeValue = document.querySelector('#categories').value;
+    console.log(typeValue);
+    $grid.isotope({ filter: `.${typeValue}` });
+    if(typeValue == 'All') {
+        $grid.isotope({ filter: '*' });
+    }
 });
 
+//Checkboxes filter
+checkboxes.change(function() {
+  // map input values to an array
+  let inclusives = [];
+  // inclusive filters from checkboxes
+  checkboxes.each( function( i, elem ) {
+    // if checkbox, use value if checked
+    console.log(elem.dataset.filter);
+    if ( elem.checked ) {
+      inclusives.push( elem.dataset.filter );
+    }
+    console.log(inclusives);
+    let filterValue = inclusives.length ? inclusives.join(', ') : '*';
+
+    $grid.isotope({ filter: filterValue });
+  });
+   
+});
+
+//Fetch data
 function updateUI(data, type) {
     console.log(data);
     for(let i = 0; i < data.length; i++) {
-        // console.log(data.img);
-        content += `<div class="poster" data-filter="${data[i].type}" data-plot="${data[i].plot}"><img src="${data[i].img}" /></div>`;
+        typeClass = '';
+        for(let j = 0; j < data[i].type.length; j++) {
+            typeClass += `${data[i].type[j]} `;
+        }
+        content += `<div class="poster grid-item ${typeClass}" data-plot="${data[i].plot}"><img src="${data[i].img}" /></div>`;
     }
     document.getElementById('movies').innerHTML = content;
     onPosterClick();
+    initIso();
+    $grid.imagesLoaded().progress( function() {
+         $grid.isotope('layout');
+    });
+    setTimeout(function() {
+        $grid.isotope({filter: '*'});
+        $grid.animate({opacity: 1}, 1000);
+    }, 100);
 }
 
 function onPosterClick() {
@@ -46,6 +79,9 @@ function onPosterClick() {
         let plot = $(this).data('plot');
         console.log(plot);
         $(this).append(`<div class="caption">${plot}</div>`);
+    });
+    $grid.isotope({
+        filter: '.BFF'
     });
 }
 

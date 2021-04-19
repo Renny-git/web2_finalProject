@@ -17,21 +17,7 @@ came up with this genius way of filtering movies to watch based on 3 simple rule
     </p>
   </div>
 </div>
-<!-- <div id=“checkmain”><input type="checkbox" class="checkbox-input" id="customCheck">
-    <label class=“custom-control-label” for="customCheck">movies</label><input checked="checked" type="checkbox" class="checkbox-input" id="customCheck1">
-    <label class="custom-control-label" for="customCheck1">tv shows</label></div>-->
-    <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button>
-      <button class="button" data-filter=".transition">animation</button>
-      <button class="button" data-filter=".alkali, .alkaline-earth">action</button>
-      <button class="button" data-filter=":not(.transition)">adventure</button>
-      <button class="button" data-filter=".metal:not(.transition)">BFF</button>
-      <button class="button" data-filter="numberGreaterThan50">Comedy</button>
-      <button class="button" data-filter="ium">Drama</button>
-      <button class="button" data-filter="ium">Girl Power</button>
-      <button class="button" data-filter="ium">LGBTQ</button>
-      <button class="button" data-filter="ium">Romcom</button>
-      <button class="button" data-filter="ium">Truth</button>
-    </div>
+
 <div id="wrapper2">
     <label for="filmcategory"></label>
     <select name="categories" id="categories">
@@ -48,16 +34,22 @@ came up with this genius way of filtering movies to watch based on 3 simple rule
       <option value="Truth">Truth</option>
     </select>
     <button type="button" class="button2">what should I watch?</button>
+  
+    <div class=“check-container”>
+      <input type="checkbox" class="checkbox-input" data-filter=".Movie" id="check-movie">
+      <label class=“custom-control-label” for="customCheck">movies</label>
+      <input checked="checked" type="checkbox" class="checkbox-input" data-filter=".Show" id="check-show">
+      <label class="custom-control-label" for="customCheck1">tv shows</label>
+    </div>
   </div>
-  <div class="grid">
-  <div id="movies"></div>
-  </div>
+  <div id="movies" class="grid"></div>
   
   <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
-  <script src="/path/to/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="/isotope.pkgd.min.js"></script>
     <script src="d3.min.js"></script>
     <script src="fetch.js"></script>
 </body>
