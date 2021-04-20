@@ -2,7 +2,8 @@
     {
         "name": "Becoming",
         "img": "img/becoming_poster.png",
-        "type": ["Truth","Girl Power", "Show"]
+        "type": ["Truth","Girl Power", "Movie"],
+        "plot": "Former first lady Michelle Obama discusses her life, hopes and connections with others."
     },
     {
         "name": "Big Little Lies",
@@ -17,7 +18,8 @@
     {
         "name": "Booksmart",
         "img": "img/booksmart_poster.png",
-        "type": ["BFF", "Comedy" , "Girl Power", "LGBTQ", "Movie"]
+        "type": ["BFF", "Comedy" , "Girl Power", "Movie"],
+        "plot": "Movie about two best friends learning there is more to high school life then just studying."
     },
     {
         "name": "Cable Girls",
@@ -27,47 +29,47 @@
     {
         "name": "Carol",
         "img": "img/carol_poster.png",
-        "type": ["Drama" , "LGBTQ"]
+        "type": ["Drama" , "LGBTQ", "Movie"]
     },   
     {
         "name": "Charlies Angels",
         "img": "img/charliesAngels_poster.png",
-        "type": ["Action","Comedy" , "Girl Power"]
+        "type": ["Action","Comedy" , "Girl Power", "Movie"]
     },
     {
         "name": "Chilling Adventures of Sabrina",
         "img": "img/chillingADventuresOfSabrina_poster.png",
-        "type": ["Adventure","Comedy" , "Drama", "Girl Power"]
+        "type": ["Action","Comedy" , "Drama", "Girl Power", "Show"]
     },
     {
         "name": "Coyote Ugly",
         "img": "img/coyoteUgly_poster.png",
-        "type": ["Comedy" , "Girl Power"]
+        "type": ["Comedy" , "Girl Power", "Movie"]
     },
     {
         "name": "Crazy Ex Girlfriend",
         "img": "img/crazyExGirlfriend_poster.png",
-        "type": ["Comedy" ,"Drama", "Girl Power", "RomCom"]
+        "type": ["Comedy" ,"Drama", "Girl Power", "RomCom", "Show"]
     },
     {
         "name": "Dead To me",
         "img": "img/deadToMe_poster.png",
-        "type": ["Comedy" , "Drama", "Girl Power"]
+        "type": ["Comedy" , "Drama", "Girl Power", "Show"]
     },
     {
         "name": "The Devil Wears Prada",
         "img": "img/devilWearsPrada_poster.png",
-        "type": []
+        "type": ["Comedy", "Movie"]
     },
     {
         "name": "Dreamgirls",
         "img": "img/dreamgirls_poster.png",
-        "type": []
+        "type": ["Musical", "Movie"]
     },
     {
         "name": "Emily in Paris",
         "img": "img/emilyInParis_poster.png",
-        "type": ["Comedy" , "RomCom"]
+        "type": ["Comedy" , "RomCom", "Show"]
     },
     {
         "name": "Euphoria",
@@ -77,32 +79,32 @@
     {
         "name": "Faking It",
         "img": "img/fakingIt_poster.png",
-        "type": ["BFF", "Comedy", "Drama", "LGBTQ", "RomCom"]
+        "type": ["BFF", "Comedy", "Drama", "LGBTQ", "RomCom", "Show"]
     },
     {
         "name": "Flea Bag",
         "img": "img/fleaBag_poster.png",
-        "type": ["BFF", "Comedy", "Drama", "RomCom"]
+        "type": ["BFF", "Comedy", "Drama", "RomCom", "Show"]
     },
     {
         "name": "Flores Raras",
         "img": "img/floresRaras_poster.png",
-        "type": ["Drama", "LGBTQ"]
+        "type": ["Drama", "LGBTQ", "Movie"]
     },
     {
         "name": "Frozen",
         "img": "img/frozen_poster.png",
-        "type": ["Adventure","Animation", "BFF", "Comedy", "Drama"]
+        "type": ["Action","Animation", "BFF", "Comedy", "Drama", "Movie"]
     },
     {
         "name": "Girl, Interrupted",
         "img": "img/girlInterrupted_poster.png",
-        "type": ["Drama"]
+        "type": ["Drama", "Movie"]
     },
     {
         "name": "Glee",
         "img": "img/glee_poster.png",
-        "type": []
+        "type": ["Comedy", "Drama", "RomCom", "Musical", "Show"]
     },
     {
         "name": "Godless",
@@ -112,87 +114,82 @@
     {
         "name": "The Good Fight",
         "img": "img/goodFight_poster.png",
-        "type": []
+        "type": ["Drama", "Show"]
     },
     {
         "name": "Good Girls",
         "img": "img/goodGirls_poster.png",
-        "type": []
+        "type": ["BFF","Comedy","Drama", "Show"]
     },
     {
         "name": "Grace and Frankie",
         "img": "img/graceAndFrankie_poster.png",
-        "type": []
+        "type": ["BFF","Comedy","Drama", "Show"]
     },
     {
         "name": "The Handmaid's Tale",
         "img": "img/handmaidsTale_poster.png",
-        "type": []
+        "type": ["Drama", "Show"]
     },
     {
         "name": "Happiest Season",
         "img": "img/happiestSeason_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "LBGTQ", "Movie"]
     },
     {
         "name": "Hidden Figures",
         "img": "img/hiddenFigures_poster.png",
-        "type": []
+        "type": ["BFF","Drama", "Truth", "Movie"]
     },
     {
         "name": "High Fidelity",
         "img": "img/highFidelity_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "Show"]
     },
     {
         "name": "Imagine Me and You",
         "img": "img/imagineMeAndYou_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "LBGTQ", "RomCom", "Movie"]
     },
     {
         "name": "Inside Out",
         "img": "img/insideOut_poster.png",
-        "type": []
+        "type": ["Animation","Drama", "Comedy","Movie"]
     },
     {
         "name": "Juno",
         "img": "img/juno_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "Movie"]
     },
     {
         "name": "Killing Eve",
         "img": "img/killingEve_poster.png",
-        "type": []
+        "type": ["Action","Drama", "Show"]
     },
     {
         "name": "Lady Bird",
         "img": "img/ladyBird_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "Movie"]
     },
     {
         "name": "Little Fires everywhere",
         "img": "img/littleFiresEverywhere_poster.png",
-        "type": []
+        "type": ["Drama", "Show"]
     },
     {
         "name": "Little Women",
         "img": "img/littleWomen_poster.png",
-        "type": []
-    },
-    {
-        "name": "L Word Generation Q",
-        "img": "img/lWordGenQ_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "RomCom", "Movie"]
     },
     {
         "name": "Marvelous Mrs Maisel",
         "img": "img/marvelousMrsMaisel_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "Show"]
     },
     {
         "name": "Mean Girls",
         "img": "img/meanGirls_poster.png",
-        "type": []
+        "type": ["Drama", "Comedy", "Movie"]
     },
     {
         "name": "Moxie",
@@ -202,22 +199,22 @@
     {
         "name": "Now and Then",
         "img": "img/nowAndThen_poster.png",
-        "type": []
+        "type": ["BFF","Drama", "Comedy", "Movie"]
     },
     {
         "name": "Ocean's 8",
         "img": "img/oceans8_poster.png",
-        "type": []
+        "type": ["Action", "Comedy", "Movie"]
     },
     {
         "name": "On the Basis of Sex",
         "img": "img/onTheBasisOfSex_poster.png",
-        "type": []
+        "type": ["Truth", "Movie"]
     },
     {
         "name": "Orange is the New Black",
         "img": "img/orangeIsTheNewBlack_poster.png",
-        "type": []
+        "type": ["Comedy","Drama", "LGBTQ", "Show"]
     },
     {
         "name": "Parks and Recreation",
@@ -227,56 +224,131 @@
     {
         "name": "Persepolis",
         "img": "img/persepolis_poster.png",
-        "type": []
+        "type": ["Animation", "Drama", "Movie"]
     },
     {
         "name": "Portrait of a Lady on Fire",
         "img": "img/portraitOfaLadyOnFire_poster.png",
-        "type": []
+        "type": ["Drama", "LGBTQ", "Movie"]
     },
     {
         "name": "Princess Mononoke",
         "img": "img/princessMononoke_poster.png",
-        "type": []
+        "type": ["Animation", "Action", "Movie"]
     },
     {
         "name": "Ratched",
         "img": "img/ratched_poster.png",
-        "type": []
+        "type": ["Drama", "Show"]
     },
     {
         "name": "Russian Doll",
         "img": "img/russianDoll_poster.png",
-        "type": []
+        "type": ["Comedy", "Drama", "Show"]
     },
     {
         "name": "Self Made",
         "img": "img/selfMade_poster copy.png",
-        "type": []
+        "type": ["Truth", "Show"]
     },
     {
         "name": "She-ra and the Princesses of Power",
         "img": "img/she-ra.png",
-        "type": []
+        "type": ["Animation", "Action", "BFF", "Drama", "Comedy", "LGBTQ", "Show"]
     },
     {
         "name": "Sister Act",
         "img": "img/sisterAct_poster.png",
-        "type": []
+        "type": ["Comedy","Musical", "Movie"]
     },
     {
         "name": "Tales of the City",
         "img": "img/talesOftheCity_poster.png",
-        "type": []
+        "type": ["Drama", "Show"]
     },
     {
         "name": "The Favourite",
         "img": "img/theFavourite_trailer.png",
-        "type": []
+        "type": ["Drama", "Movie"]
+    },
+    {
+        "name": "The First Wives Club",
+        "img": "img/theFirstWivesClub_poster.png",
+        "type": ["Comedy", "Movie"]
     },
     {
         "name": "The Half of it",
         "img": "img/theHalfOfIt_poster.png",
+        "type": ["Drama", "Comedy", "RomCom", "LGBTQ", "Show"]
+    },
+    {
+        "name": "The Handmaiden",
+        "img": "img/theHandmaiden_poster.png",
+        "type": ["Drama", "Movie"]
+    },
+    {
+        "name": "The Help",
+        "img": "img/theHelp_poster.png",
+        "type": ["Drama", "Movie"]
+    },
+    {
+        "name": "The Hours",
+        "img": "img/theHours_poster.png",
+        "type": ["Drama", "Movie"]
+    },
+    {
+        "name": "Thelma and Louise",
+        "img": "img/thelmaAndLouise_poster.png",
+        "type": ["Action","BFF","Drama", "Movie"]
+    },
+    {
+        "name": "The L Word",
+        "img": "img/theLWord_poster.png",
+        "type": ["Drama", "LGBTQ", "Show"]
+    },
+    {
+        "name": "The L Word Generation Q",
+        "img": "img/lWordGenQ_poster.png",
+        "type": ["Drama", "LGBTQ", "Show"]
+    },
+    {
+        "name": "The Queen's Gambit",
+        "img": "img/theQueensGambit_poster.png",
+        "type": ["Drama", "Show"]
+    },
+    {
+        "name": "All About My Mother",
+        "img": "img/todoSobreMiMadre_poster.png",
+        "type": ["Drama", "Movie"]
+    },
+    {
+        "name": "My neighbor Totoro",
+        "img": "img/totoro_poster.png",
+        "type": ["Animation", "Movie"]
+    },
+    {
+        "name": "Uggly Betty",
+        "img": "img/ugglyBetty_poster.png",
+        "type": ["Comedy", "Show"]
+    },
+    {
+        "name": "Unpregnant",
+        "img": "img/unpregnant-poster.png",
         "type": []
+    },
+    {
+        "name": "Vicky, Cristina, Barcelona",
+        "img": "img/vickyCristinaBarcelona_poster.png",
+        "type": []
+    },
+    {
+        "name": "Volver",
+        "img": "img/volver_poster.png",
+        "type": []
+    },
+    {
+        "name": "Wolfwalkers",
+        "img": "img/wolfWalkers_poster.png",
+        "type": ["Animation", "Action", "BFF"]
     }
 ]
