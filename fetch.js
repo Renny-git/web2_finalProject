@@ -57,7 +57,7 @@ function updateUI(data, type) {
         for(let j = 0; j < data[i].type.length; j++) {
             typeClass += `${data[i].type[j]} `;
         }
-        content += `<div class="poster grid-item ${typeClass}" data-plot="${data[i].plot}"><img src="${data[i].img}" /></div>`;
+        content += `<div class="poster flip-card grid-item ${typeClass}" data-plot="${data[i].plot}"><div class ="flip-card-inner"><div class ="flip-card-front"><img src="${data[i].img}" /></div><div class="flip-card-back"><h2>${data[i].name}</h2><p>${data[i].plot}</p></div></div></div></div>`;
     }
     document.getElementById('movies').innerHTML = content;
     onPosterClick();
