@@ -24,11 +24,9 @@ came up with this genius way of filtering movies to watch based on 3 simple rule
       <option value="All">All</option>
       <option value="Animation">Animation</option>
       <option value="Action">Action</option>
-      <option value="Adventure">Adventure</option>
       <option value="BFF">BFF</option>
       <option value="Comedy">Comedy</option>
       <option value="Drama">Drama</option>
-      <option value="GirlPower">Girl Power</option>
       <option value="LGBTQ">LGBTQ</option>
       <option value="RomCom">RomCom</option>
       <option value="Truth">Truth</option>
@@ -42,7 +40,15 @@ came up with this genius way of filtering movies to watch based on 3 simple rule
       <label class="custom-control-label" for="customCheck1">tv shows</label>
     </div>
   </div>
-  <div id="movies" class="grid"></div>
+  <div id="movies" class="grid">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+          <div class="flip-card-front">
+              <img src="img/becoming_poster.png" alt="Avatar"></div>
+                  <div class="flip-card-back"><h2>Click to see movie title.</h2><p>Click to see short synopsis.</p></div>
+          </div>
+      </div>
+  </div>
   
   <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
