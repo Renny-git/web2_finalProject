@@ -3,63 +3,85 @@
         "name": "Becoming",
         "img": "img/becoming_poster.png",
         "type": ["Truth","Girl Power", "Movie"],
-        "plot": "Former first lady Michelle Obama discusses her life, hopes and connections with others."
+        "plot": "Former first lady Michelle Obama discusses her life, hopes and connections with others.",
+        "year":"2020"
     },
     {
         "name": "Big Little Lies",
         "img": "img/big-little-lies_poster.png",
-        "type": ["Drama", "Show"]
+        "type": ["Drama", "Show"],
+        "plot": "The apparently perfect lives of upper-class mothers, at a prestigious elementary school, unravel to the point of murder when a single-mother moves to their quaint Californian beach town.",
+        "year":"2017"
     },
     {
         "name": "Blue is the Warmest Color",
         "img": "img/blueIstheWarmestColor_poster.png",
-        "type": ["LGBTQ", "Movie"]
+        "type": ["LGBTQ", "Movie"],
+        "plot": "Adèle's life is changed when she meets Emma, a young woman with blue hair, who will allow her to discover desire and to assert herself as a woman and as an adult. Adèle grows, seeks herself, loses herself, and ultimately finds herself through love and loss.",
+        "year":"2013"
     },
     {
         "name": "Booksmart",
         "img": "img/booksmart_poster.png",
         "type": ["BFF", "Comedy" , "Girl Power", "Movie"],
-        "plot": "Movie about two best friends learning there is more to high school life then just studying."
+        "plot": "Academic overachievers and best friends Amy and Molly realize, on the eve of graduation, that they may have missed out on the special moments of their teenage years. Determined to make up for lost time, the girls decide to cram four years of not-to-be missed fun into one night -- a chaotic adventure that no amount of book smarts could prepare them for.",
+        "year":"2019"
     },
     {
         "name": "Cable Girls",
         "img": "img/cableGirls_poster.png",
-        "type": ["Drama" , "Girl Power", "Show"]
+        "type": ["Drama" , "Girl Power", "Show"],
+        "plot": "Set in the 1920s, this is the story of four women from different backgrounds newly hired as operators for a phone company. Trying to escape the past, thief Alba weasels herself a job working as a telephone operator in 1928 Madrid under a false identity.",
+        "year":"2017"
     },
     {
         "name": "Carol",
         "img": "img/carol_poster.png",
-        "type": ["Drama" , "LGBTQ", "Movie"]
+        "type": ["Drama" , "LGBTQ", "Movie"],
+        "plot": "Therese Belivet (Rooney Mara) spots the beautiful, elegant Carol (Cate Blanchett) perusing the doll displays in a 1950s Manhattan department store. The two women develop a fast bond that becomes a love with complicated consequences.",
+        "year":"2016"
     },   
     {
         "name": "Charlies Angels",
         "img": "img/charliesAngels_poster.png",
-        "type": ["Action","Comedy" , "Girl Power", "Movie"]
+        "type": ["Action", "Girl Power", "Movie"],
+        "plot":"Elena Houghlin is a scientist, engineer and inventor of Calisto -- a sustainable energy source that will revolutionize the way people use power. But when the cutting edge technology falls into the wrong hands, Elena turns to the Townsend Agency for help. Now, it's up to the Angels -- Jane, Sabina and the newly recruited Elena -- to retrieve Calisto before it can be transformed into a weapon of mass destruction.",
+        "year":"2019"
     },
     {
         "name": "Chilling Adventures of Sabrina",
         "img": "img/chillingADventuresOfSabrina_poster.png",
-        "type": ["Action","Comedy" , "Drama", "Girl Power", "Show"]
+        "type": ["Action", "Drama", "Girl Power", "Show"],
+        "plot":"Sabrina Spellman must reconcile her dual nature as a half-witch, half-mortal while fighting the evil forces that threaten her, her family, and the daylight world humans inhabit.",
+        "year":"2018"
     },
     {
         "name": "Coyote Ugly",
         "img": "img/coyoteUgly_poster.png",
-        "type": ["Comedy" , "Girl Power", "Movie"]
+        "type": ["Girl Power", "Movie"],
+        "plot": "21-year-old Violet Sanford heads to New York to pursue her dream of becoming a songwriter only to find her aspirations sidelined by the accolades and notoriety she receives at her 'day' job as a barmaid at Coyote Ugly.",
+        "year":"2000"
     },
     {
         "name": "Crazy Ex Girlfriend",
         "img": "img/crazyExGirlfriend_poster.png",
-        "type": ["Comedy" ,"Drama", "Girl Power", "RomCom", "Show"]
+        "type": ["Comedy" ,"Drama", "Girl Power", "RomCom", "Show"],
+        "plot": "Rebecca Bunch is a successful, driven, and possibly crazy young woman who impulsively gives up everything her partnership at a prestigious law firm and her upscale apartment in Manhattan in a desperate attempt to find love and happiness in that exotic hotbed of romance and adventure: suburban West Covina, CA.",
+        "year": "2015"
     },
     {
         "name": "Dead To me",
         "img": "img/deadToMe_poster.png",
-        "type": ["Comedy" , "Drama", "Girl Power", "Show"]
+        "type": ["Comedy" , "Drama", "Girl Power", "Show"],
+        "plot":  "A series about a powerful friendship that blossoms between a tightly wound widow and a free spirit with a shocking secret.",
+        "year": "2019"
     },
     {
         "name": "The Devil Wears Prada",
         "img": "img/devilWearsPrada_poster.png",
-        "type": ["Comedy", "Movie"]
+        "type": ["Movie"],
+        "plot": "",
+        "year": "2006"
     },
     {
         "name": "Dreamgirls",
@@ -74,7 +96,7 @@
     {
         "name": "Euphoria",
         "img": "img/euphoria_poster.png",
-        "type": []
+        "type": ["Show"]
     },
     {
         "name": "Faking It",
@@ -94,7 +116,7 @@
     {
         "name": "Frozen",
         "img": "img/frozen_poster.png",
-        "type": ["Action","Animation", "BFF", "Comedy", "Drama", "Movie"]
+        "type": ["Action","Animation", "BFF", "Drama", "Movie"]
     },
     {
         "name": "Girl, Interrupted",
@@ -109,7 +131,7 @@
     {
         "name": "Godless",
         "img": "img/godless_poster.png",
-        "type": []
+        "type": ["Movie"]
     },
     {
         "name": "The Good Fight",
@@ -154,7 +176,7 @@
     {
         "name": "Inside Out",
         "img": "img/insideOut_poster.png",
-        "type": ["Animation","Drama", "Comedy","Movie"]
+        "type": ["Animation","Drama","Movie"]
     },
     {
         "name": "Juno",
@@ -179,7 +201,7 @@
     {
         "name": "Little Women",
         "img": "img/littleWomen_poster.png",
-        "type": ["Drama", "Comedy", "RomCom", "Movie"]
+        "type": ["Drama","RomCom", "Movie"]
     },
     {
         "name": "Marvelous Mrs Maisel",
@@ -219,7 +241,7 @@
     {
         "name": "Parks and Recreation",
         "img": "img/parksAndRecs_poster.png",
-        "type": []
+        "type": ["Show"]
     },
     {
         "name": "Persepolis",
@@ -254,7 +276,7 @@
     {
         "name": "She-ra and the Princesses of Power",
         "img": "img/she-ra.png",
-        "type": ["Animation", "Action", "BFF", "Drama", "Comedy", "LGBTQ", "Show"]
+        "type": ["Animation", "Action", "BFF", "Drama", "LGBTQ", "Show"]
     },
     {
         "name": "Sister Act",
@@ -279,7 +301,7 @@
     {
         "name": "The Half of it",
         "img": "img/theHalfOfIt_poster.png",
-        "type": ["Drama", "Comedy", "RomCom", "LGBTQ", "Show"]
+        "type": ["Drama","RomCom", "LGBTQ", "Show"]
     },
     {
         "name": "The Handmaiden",
